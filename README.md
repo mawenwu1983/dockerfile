@@ -1,10 +1,11 @@
 # 个人常用Dockerfile
 ## 3.6.1-jdk-8-alpine-aliyun
 ### Dockerfile
+```dockerfile
 FROM maven:3.6.1-jdk-8-alpine
 
 COPY settings.xml /usr/share/maven/ref/
-
+```
 ### settings.xml
 ```xml
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
